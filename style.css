@@ -1,0 +1,58 @@
+body {
+    font-family: "Lucida Sans", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    color: white;
+    padding: 0px 15px 0px;
+    margin: 0;
+}
+
+.hlogo {
+    font-weight: 900;
+    font-size: 22px;
+    padding-left: 60px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul,
+li {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.navlinks {
+    display: flex;
+}
+
+.toptxt {
+    padding-left: 75px;
+    gap: 3px;
+    background-color: darkslateblue;
+    color: white;
+}
+
+.bold {
+    width: 300px;
+    font-weight: 900;
+    font-size: 40px;
+    padding-top: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.desc {
+    width: 400px;
+    padding-bottom: 40px;
+    margin-top: 0px;
+    margin-bottom: 1em;
+    color: #dedede;
+}
