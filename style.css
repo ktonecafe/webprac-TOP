@@ -52,6 +52,7 @@ li {
     width: 400px;
     margin-top: 0px;
     color: #eeeeee;
+    padding-top: 10px;
 }
 
 .belowheader {
@@ -87,21 +88,17 @@ li {
     font-size: 28px;
     text-align: center;
 }
-.fourboys {
+.fourboys,
+.fourtxt {
     display: flex;
     gap: 25px;
+    border: 3px, #2597fa;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    width: 675px;
 }
 .dogs {
     width: 150px;
     height: 150px;
-    border: 3px, #2597fa;
-    border-radius: 12px;
-}
-
-.fourtxt {
-    display: flex;
-    flex-direction: row;
-    width: 150px;
-    height: 150px;
-    gap: 25px;
 }
