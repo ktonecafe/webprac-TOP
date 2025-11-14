@@ -56,6 +56,10 @@ li {
     color: #eeeeee;
 }
 
+.belowheader {
+    display: inline-flex;
+}
+
 .btnone {
     width: 100px;
     height: 40px;
