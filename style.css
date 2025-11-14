@@ -63,8 +63,6 @@ li {
 }
 
 .dawgimg {
-    display: inline-flex;
-    flex-direction: column;
     font-size: 10px;
     color: #eeeeee;
 }
@@ -98,24 +96,27 @@ li {
 .fourtxt {
     display: flex;
     gap: 25px;
-    border: 3px, #2597fa;
-    border-radius: 12px;
     text-align: center;
     font-size: 14px;
-    width: 675px;
+    width: 705px;
 }
 .fourtxt {
     margin-bottom: 50px;
+    gap: 40px;
 }
 .dogs {
     width: 150px;
     height: 150px;
+    border:
+        4px,
+        solid #6cb5f5;
+    border-radius: 12px;
 }
 
 .testimonial {
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 120px;
     background-color: #ededed;
 }
 
@@ -131,4 +132,55 @@ li {
     font-weight: 900;
     align-self: flex-end;
     padding-right: 160px;
+}
+.actcall {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 80px 150px 80px 150px;
+    padding: 40px 80px 40px 80px;
+    background-color: #2597fa;
+    border: 2px solid #2597fa;
+    border-radius: 20px;
+    gap: 2px;
+}
+
+.actone,
+.acttwo {
+    color: white;
+    margin: 0;
+    width: 450px;
+}
+.actone {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+.acttwo {
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0;
+}
+.btntwo {
+    display: inline-flex;
+    text-align: center;
+    width: auto;
+    background-color: transparent;
+    color: white;
+    border: 2px, solid, white;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 8px 25px 8px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    margin: 0;
+    font-weight: 300;
+    background-color: #6cb5f5;
+    color: white;
+    padding: 0px 15px 0px;
 }
