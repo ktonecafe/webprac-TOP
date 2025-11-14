@@ -1,6 +1,7 @@
 body {
     font-family: "Lucida Sans", sans-serif;
     overflow: hidden;
+    margin: 0;
 }
 
 .header {
@@ -27,6 +28,7 @@ li {
     list-style: none;
     gap: 15px;
 }
+
 .navlinks {
     display: flex;
     padding-right: 120px;
@@ -73,8 +75,33 @@ li {
     padding: 0px 25px 0px;
 }
 
+.imgsection {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .midtxt {
     font-weight: 900;
     font-size: 28px;
     text-align: center;
+}
+.fourboys {
+    display: flex;
+    gap: 25px;
+}
+.dogs {
+    width: 150px;
+    height: 150px;
+    border: 3px, #2597fa;
+    border-radius: 12px;
+}
+
+.fourtxt {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    gap: 25px;
 }
