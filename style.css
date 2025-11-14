@@ -70,6 +70,4 @@ li {
 .dawg {
     display: inline-flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding-left: 500px;
 }
