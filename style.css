@@ -1,6 +1,5 @@
 body {
     font-family: "Lucida Sans", sans-serif;
-    overflow: hidden;
     margin: 0;
 }
 
@@ -63,6 +62,13 @@ li {
     background-color: #6cb5f5;
 }
 
+.dawgimg {
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 10px;
+    color: #eeeeee;
+}
+
 .btnone {
     width: auto;
     height: 35px;
@@ -98,7 +104,31 @@ li {
     font-size: 14px;
     width: 675px;
 }
+.fourtxt {
+    margin-bottom: 50px;
+}
 .dogs {
     width: 150px;
     height: 150px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #ededed;
+}
+
+.dogtxt {
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 100;
+    width: 800px;
+    align-self: center;
+    margin: 0;
+}
+.fromdog {
+    font-weight: 900;
+    align-self: flex-end;
+    padding-right: 160px;
 }
