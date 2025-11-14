@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: darkslateblue;
+    background-color: #6cb5f5;
     color: white;
     padding: 0px 15px 0px;
     margin: 0;
@@ -31,12 +31,13 @@ li {
 }
 .navlinks {
     display: flex;
+    padding-right: 75px;
 }
 
 .toptxt {
     padding-left: 75px;
     gap: 3px;
-    background-color: darkslateblue;
+    background-color: #6cb5f5;
     color: white;
 }
 
@@ -51,8 +52,24 @@ li {
 
 .desc {
     width: 400px;
-    padding-bottom: 40px;
     margin-top: 0px;
-    margin-bottom: 1em;
-    color: #dedede;
+    color: #eeeeee;
+}
+
+.sgnone {
+    width: 100px;
+    height: 40px;
+    background-color: #2597fa;
+    color: white;
+    border-color: #abd8ff;
+    font-weight: 900;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.dawg {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding-left: 500px;
 }
