@@ -1,6 +1,5 @@
 body {
     font-family: "Lucida Sans", sans-serif;
-    height: 100vh;
     overflow: hidden;
 }
 
@@ -11,13 +10,12 @@ body {
     background-color: #6cb5f5;
     color: white;
     padding: 0px 15px 0px;
-    margin: 0;
 }
 
 .hlogo {
     font-weight: 900;
     font-size: 22px;
-    padding-left: 60px;
+    padding-left: 120px;
 }
 a {
     text-decoration: none;
@@ -31,12 +29,11 @@ li {
 }
 .navlinks {
     display: flex;
-    padding-right: 75px;
+    padding-right: 120px;
 }
 
 .toptxt {
-    padding-left: 75px;
-    gap: 3px;
+    padding-left: 137px;
     background-color: #6cb5f5;
     color: white;
 }
@@ -45,7 +42,6 @@ li {
     width: 300px;
     font-weight: 900;
     font-size: 40px;
-    padding-top: 60px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -57,21 +53,28 @@ li {
 }
 
 .belowheader {
-    display: inline-flex;
+    display: flex;
+    gap: 172px;
+    height: 400px;
+    align-items: center;
+    background-color: #6cb5f5;
 }
 
 .btnone {
-    width: 100px;
-    height: 40px;
+    width: auto;
+    height: 35px;
     background-color: #2597fa;
     color: white;
     border-color: #abd8ff;
     font-weight: 900;
     font-size: 15px;
     border-radius: 12px;
+    border-color: transparent;
+    padding: 0px 25px 0px;
 }
 
-.dawg {
-    display: inline-flex;
-    flex-wrap: wrap;
+.midtxt {
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
 }
